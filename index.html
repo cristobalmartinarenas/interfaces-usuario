@@ -9,47 +9,37 @@
         <form>
             <p>
                 <label for="username">Username:</label>
-                <input type="text" name="username" id="username" title="Enter your username"/>
+                <input type="text" name="username" id="username" title="Enter your username" required="true"/>
             </p>
 
             <p>
                 <label for="surname">Surname:</label>
-                <input type="text" name="surname" id="surname" title="Enter your surname"/>
+                <input type="text" name="surname" id="surname" title="Enter your surname" required="true"/>
             </p>
 
             <p>
                 <label for="dob">Date of birth:</label>
-                <input type="date" name="dob" id="dob"/>
+                <input type="date" name="dob" id="dob" required="true"/>
             </p>
 
             <p>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" title="Enter your email"/>
+                <input type="email" name="email" id="email" title="Enter your email" required="true"/>
             </p>
 
             <p>
                 <label for="telephone">Telephone number:</label>
-                <input type="number" name="telephone" name="telephone" id="telephone" title="Enter your telephone number" onkeydown="return false"/>
+                <input type="tel" name="telephone" name="telephone" id="telephone" title="Enter your telephone number" required="true"/>
             </p>
 
             <p>
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" title="Enter your password"/>
+                <input type="password" name="password" id="password" title="Enter your password" required="true"/>
             </p>
 
             <p>
-                <label for="favourite red">Favourite Color Red (0-255):</label>
-                <input type="range" name="favourite red" id="favourite red" min="0" max="255"/>
-            </p>
-
-            <p>
-                <label for="favourite green">Favourite Color Green (0-255):</label>
-                <input type="range" name="favourite green" id="favourite green" min="0" max="255"/>
-            </p>
-
-            <p>
-                <label for="favourite blue">Favourite Color Blue (0-255):</label>
-                <input type="range" name="favourite blue" id="favourite blue" min="0" max="255"/>
+                <label for="favourite color">Favourite Color:</label>
+                <input type="color" name="favourite color" id="favourite color" required="true"/>
             </p>
 
             <p>
