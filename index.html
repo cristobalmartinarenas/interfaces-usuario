@@ -1,9 +1,60 @@
 <html>
     <head>
-
+        <title>Formulario</title>
     </head>
 
     <body>
-        <h1>Hola mundo</h1>
+        <h1>Incia sesion</h1>
+
+        <form>
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" title="Enter your username"/>
+            </p>
+
+            <p>
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" id="surname" title="Enter your surname"/>
+            </p>
+
+            <p>
+                <label for="dob">Date of birth:</label>
+                <input type="date" name="dob" id="dob"/>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" title="Enter your email"/>
+            </p>
+
+            <p>
+                <label for="telephone">Telephone number:</label>
+                <input type="number" name="telephone" name="telephone" id="telephone" title="Enter your telephone number" onkeydown="return false"/>
+            </p>
+
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" title="Enter your password"/>
+            </p>
+
+            <p>
+                <label for="favourite red">Favourite Color Red (0-255):</label>
+                <input type="range" name="favourite red" id="favourite red" min="0" max="255"/>
+            </p>
+
+            <p>
+                <label for="favourite green">Favourite Color Green (0-255):</label>
+                <input type="range" name="favourite green" id="favourite green" min="0" max="255"/>
+            </p>
+
+            <p>
+                <label for="favourite blue">Favourite Color Blue (0-255):</label>
+                <input type="range" name="favourite blue" id="favourite blue" min="0" max="255"/>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
     </body>
 </html>
